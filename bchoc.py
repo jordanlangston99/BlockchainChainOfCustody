@@ -30,15 +30,15 @@ if __name__ == '__main__':
     if sys.argv[1] == 'add':
         addItem()
     else if sys.argv[1] == 'checkout'
-        return checkout()
+        checkout()
     else if sys.argv[1] == 'checkin'
-        return checkin()
+        checkin()
     else if sys.argv[1] == 'log'
-        return log()
+        log()
     else if sys.argv[1] == 'remove'
-        return remove()
+        remove()
     else if sys.argv[1] == 'init'
-        return init()
+        init()
     else if sys.argv[1] == 'verify'
-        return verify()
+        verify()
     return 0
