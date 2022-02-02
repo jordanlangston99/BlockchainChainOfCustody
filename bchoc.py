@@ -2,6 +2,7 @@
 import sys, types, time, random, os
 
 def addItem():
+   print("add item")
    return 0
 
 def checkout():
@@ -25,6 +26,7 @@ def verify():
 
 #Main
 if __name__ == '__main__':
+    print("test")
     if sys.argv[1] == 'add':
         addItem()
     elif sys.argv[1] == 'checkout':
@@ -39,4 +41,10 @@ if __name__ == '__main__':
         init()
     elif sys.argv[1] == 'verify':
         verify()
-    
+"""
+You can test a method call by:
+ python3 bchoc add
+It should return:
+ test
+ add item
+"""
